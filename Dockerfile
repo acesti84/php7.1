@@ -5,9 +5,6 @@ RUN LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 RUN apt-get update
 
 #install php7.1 and dependecies
-RUN apt-get -y install curl 
-RUN apt-get -y install git 
-RUN apt-get -y install vim 
 RUN apt-get -y install apache2 
 RUN apt-get -y install libapache2-mod-php7.1  
 RUN apt-get -y install php7.1 
